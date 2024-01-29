@@ -1,0 +1,235 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+
+/*MOVIL*/
+@media (min-widht: 320px) and (max-widht: 480px) {
+}
+
+/*TABLET*/
+@media (min-widht: 576px) and (max-widht: 991px) {
+}
+
+/*MONITOR*/
+@media (min-widht: 1180){
+}
+
+
+.menu {
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  color: white;
+}
+
+.titulo {
+  color: white;
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  margin-left: 20px;
+  background: rgba(0, 0, 0, 0.4);
+  width: 38%;
+  padding: 10px;
+}
+
+.img-back { 
+  background-image: url(../img/descarga\ 2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.class biomecanica {
+  text-align: center;
+}
+
+a { /*Links*/
+  font-family: 'Noto Sans JP', sans-serif;
+  text-decoration: none;
+  color: black;
+  justify-content: space-between;
+  color: white;
+  width: 100%;
+  font-weight: bold;
+  background-color: black;
+}
+
+.menu-nav li{
+  display: inline;
+  margin-right: 40px;
+  background-color: aqua;
+}
+
+.fonts { /*Customizacion de parrafo*/
+  font-family: 'Noto Sans JP', sans-serif;
+  color: white;
+  background: rgb(0, 0, 0);
+  text-align: center;
+  padding: 10px;
+  width: 20%;
+  margin-left: 40px;
+}
+
+.tips {
+  bottom: 0%;
+  position: relative;
+  margin-top: 543px;
+  color: aliceblue;
+  font-weight: 700;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  text-align: left;
+}
+
+.tips article {
+  background: rgba(0, 0, 0, 0.4);
+  width: 50%;
+  padding: 15px;
+}
+
+.contacto-tittle {
+  color: black;
+  text-align: center;
+  font-family: 'Noto Sans JP', sans-serif;
+  margin-top: 500px;
+}
+
+.tips ol li {
+  text-align: right;
+  margin-right: 50px;
+}
+
+.tips ol {
+  list-style-type: none;
+}
+
+.mr {
+  color: black;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.ts {
+  color: black;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.ul li {
+  text-align: center;
+  color: black;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.ti {
+  color: black;
+  font-family: 'Noto Sans JP', sans-serif;
+  text-align: center;
+}
+
+.cont-h1 {
+  color: black;
+  margin-bottom: 100px;
+  font-family: 'Noto Sans JP', sans-serif;
+  text-align: center;
+}
+
+.form {
+  text-align: center;
+  font-family: 'Noto Sans JP', sans-serif;
+  margin-top: 50px;
+
+}
+
+.tittl-form {
+  text-align: center;
+  font-family: 'Noto Sans JP', sans-serif;
+  margin-top: 100px;
+}
+
+.ayuda {
+  color: black;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+  background: rgba(0, 0, 0, 0.8);
+  width: 80%;
+  padding: 20px;
+  color: white;
+  margin-left: 150px;
+  margin-top: 20px;
+}
+
+footer {
+  color: white;
+  position: relative;
+  background-color: black;
+  text-align: center;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.tips-ayuda ol {
+  color: black;
+  text-align: center;
+  font-family: 'Noto Sans JP', sans-serif;
+  margin-bottom: 30px;
+  text-align: start;
+  margin-left: 20px;
+}
+
+header nav ul li a:hover {
+  color: grey;
+}
+
+.consejos {
+  font-family: 'Noto Sans JP', sans-serif;
+  text-align: start;
+  margin-left: 150px;
+  margin-top: 40px;
+  background: rgba(0, 0, 0, 0.8);
+  width: 80%;
+  padding: 20px;
+  font-size: 17px;
+  color: white;
+}
+
+.ult {
+  font-family: 'Noto Sans JP', sans-serif;
+  text-align: center;
+  margin-top: 58px;
+  background: rgba(0, 0, 0, 0.8);
+  width: 80%;
+  padding: 20px;
+  margin-left: 150px;
+  font-size: medium;
+  color: white;
+}
+
+.playlist {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.back-ayuda {
+  background-color: rgba(182, 155, 155, 0.4);
+}
+
+.back-bio {
+  background-color: rgba(182, 155, 155, 0.4);
+}
+
+.back-cont {
+  background-color: rgba(182, 155, 155, 0.4);
+}
+
+.back-mir {
+  background-color: rgba(182, 155, 155, 0.4);
+}

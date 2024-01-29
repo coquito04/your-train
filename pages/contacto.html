@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your-Train</title>
+    <link rel="shortcut icon" href="../img/fav3.png" type="image/x-icon"> <!--Favicon-->
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body class="back-cont">
+    <header>
+        <nav class="menu">
+            <ul class=menu-nav>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="mirutina.html">Mi Rutina</a></li>
+                <li><a href="biomecanica.html">Biomecanica</a></li>
+                <li><a href="ayuda.html">Ayuda</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+<div>
+    <h1 class="cont-h1">Bienvenido a la seccion "Contacto"</h1>
+  
+    <h2 class="tittl-form">Completa este formulario para contactarnos.</h2>
+</div>
+
+<section class="form">
+<form action="/procesar_formulario" method="post">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+<br>
+  
+      <label for="contrasena">Contraseña:</label>
+      <input type="password" id="contrasena" name="contrasena" required>
+<br>
+  
+      <label for="pais">País:</label>
+      
+<select id="pais" name="pais">
+        <option value="1">Argentina</option>
+        <option value="2">México</option>
+        <option value="3">España</option>
+        <option value="4">Otro</option>
+</select>
+    <br>
+      <input type="submit" value="Enviar">
+</section>
+
+    <h2 class="contacto-tittle">¡A la brevedad nos contactaremos con usted!</h2>
+  
+</form>
+    
+</body>
+</html>
